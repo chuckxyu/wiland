@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+iosLaunchConfigurationAttributes/ATTR_MINIFY=true
+iosLaunchConfigurationAttributes/ATTR_PROJECT_NAME=wiland
+iosLaunchConfigurationAttributes/appid=com.inteliglobe.wiland
+iosLaunchConfigurationAttributes/certificate=Carlos Garcia (E6WM3TLP8T)
+iosLaunchConfigurationAttributes/keychain=
+iosLaunchConfigurationAttributes/sdk_version=7.1
+iosLaunchConfigurationAttributes/uuid=31C844DD-FB55-42B4-8DC7-2BFEB38346B2
+provisioning_profiles/development/31C844DD-FB55-42B4-8DC7-2BFEB38346B2/appid=*
+provisioning_profiles/development/31C844DD-FB55-42B4-8DC7-2BFEB38346B2/name=iOS Team Provisioning Profile\: *
+provisioning_profiles/development/31C844DD-FB55-42B4-8DC7-2BFEB38346B2/uuid=31C844DD-FB55-42B4-8DC7-2BFEB38346B2

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <property name="acs-oauth-secret-production" type="string">S7C71bP8GXIf5rQKGNM70w3Uju9JBY4W</property>
+    <property name="acs-oauth-key-production" type="string">ghgbQzQIZb5XpSoAwgKNadKBgFOjsYHK</property>
+    <property name="acs-api-key-production" type="string">brpJLgKURhvDEUamX5b6VTYqyARAK8VR</property>
+    <property name="acs-oauth-secret-development" type="string">zQSM7Z9mEx7QkrQrQD2ki9BcvlNEVgkh</property>
+    <property name="acs-oauth-key-development" type="string">8YoJMK1OpzsgiPMH40EQ2TqoeP5K7Hob</property>
+    <property name="acs-api-key-development" type="string">iryS6hMK0MisDlb2Ra7Oi1ZS45AAJC3v</property>
+    <property name="ti.facebook.appid">220589901475687∫</property>
+    <id>com.inteliglobe.wiland</id>
+    <name>wiland</name>
+    <version>1.0</version>
+    <publisher>cgarcia</publisher>
+    <url>http://</url>
+    <description>not specified</description>
+    <copyright>2014 by cgarcia</copyright>
+    <icon>Icon-60@2x.png</icon>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>40661e04-1eda-415b-82a6-f5c13c23c195</guid>
+    <property name="ti.ui.defaultunit" type="string">dp</property>
+    <ios>
+        <plist>
+            <dict>
+                <key>UISupportedInterfaceOrientations~iphone</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                </array>
+                <key>UISupportedInterfaceOrientations~ipad</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                    <string>UIInterfaceOrientationPortraitUpsideDown</string>
+                    <string>UIInterfaceOrientationLandscapeLeft</string>
+                    <string>UIInterfaceOrientationLandscapeRight</string>
+                </array>
+                <key>UIRequiresPersistentWiFi</key>
+                <false/>
+                <key>UIPrerenderedIcon</key>
+                <false/>
+                <key>UIStatusBarHidden</key>
+                <false/>
+                <key>UIStatusBarStyle</key>
+                <string>UIStatusBarStyleDefault</string>
+            </dict>
+        </plist>
+    </ios>
+    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules>
+        <module platform="commonjs">ti.cloud</module>
+        <!-- Add the appropriate line(s) to your modules section -->
+        <module platform="android">facebook</module>
+        <module platform="iphone">facebook</module>
+    </modules>
+    <deployment-targets>
+        <target device="android">true</target>
+        <target device="blackberry">false</target>
+        <target device="ipad">true</target>
+        <target device="iphone">true</target>
+        <target device="mobileweb">false</target>
+        <target device="tizen">false</target>
+    </deployment-targets>
+    <sdk-version>3.2.2.GA</sdk-version>
+</ti:app>
